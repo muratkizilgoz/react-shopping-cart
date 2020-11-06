@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: grid;
+  // grid-template-rows: 7rem auto fit-content(8rem);
+  grid-template-rows: 7rem auto auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
